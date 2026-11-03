@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">Rohith Joy — Developer GitHub Profile</title>
+  <desc id="desc">Dark graphite banner with violet and blue circuit accents, introducing Rohith Joy, a software developer and MCA candidate.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0D1117"/>
+      <stop offset=".55" stop-color="#111827"/>
+      <stop offset="1" stop-color="#171633"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#A78BFA"/>
+      <stop offset=".54" stop-color="#7C8FFF"/>
+      <stop offset="1" stop-color="#67E8F9"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#222944" stop-opacity=".82"/>
+      <stop offset="1" stop-color="#12172A" stop-opacity=".5"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#A1B0CF" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+    <filter id="blur"><feGaussianBlur stdDeviation="54"/></filter>
+    <clipPath id="round"><rect x="0" y="0" width="1280" height="360" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#round)">
+    <rect width="1280" height="360" fill="url(#bg)"/>
+    <circle cx="1050" cy="-80" r="290" fill="#7958E5" opacity=".22" filter="url(#blur)"/>
+    <circle cx="1230" cy="370" r="245" fill="#20A0D3" opacity=".16" filter="url(#blur)"/>
+    <rect width="1280" height="360" fill="url(#grid)"/>
+    <g fill="none" stroke-width="1.5" stroke="#8C86E9" opacity=".34">
+      <path d="M862 60h134l35 35h146"/>
+      <path d="M905 103h115l48 48h142"/>
+      <path d="M880 280h112l40-40h154"/>
+      <path d="M1014 317h84l51-51h90"/>
+      <path d="M840 203h72l32-32h101"/>
+    </g>
+    <g fill="#8EE3FE">
+      <circle cx="1177" cy="95" r="3.5" opacity=".8"/>
+      <circle cx="1210" cy="151" r="3.5" opacity=".85"/>
+      <circle cx="1186" cy="240" r="3.5" opacity=".85"/>
+      <circle cx="1045" cy="171" r="3.5" opacity=".85"/>
+    </g>
+    <rect x="54" y="43" width="195" height="34" rx="17" fill="#24203A" stroke="#6557A3" stroke-opacity=".72"/>
+    <circle cx="76" cy="60" r="5" fill="#A78BFA"/>
+    <text x="92" y="66" font-family="'Segoe UI',Arial,sans-serif" font-size="13.5" font-weight="700" fill="#D9D5FF" letter-spacing="1.4">GITHUB PROFILE</text>
+    <text x="52" y="183" font-family="'Segoe UI',Arial,sans-serif" font-size="91" font-weight="800" fill="#F0F6FC" letter-spacing="-4">ROHITH <tspan fill="url(#accent)">JOY</tspan></text>
+    <rect x="58" y="203" width="88" height="4" rx="2" fill="url(#accent)"/>
+    <text x="55" y="249" font-family="'Segoe UI',Arial,sans-serif" font-size="28" font-weight="600" fill="#CFD7E5">Software Developer <tspan fill="#64748B">/</tspan> MCA Candidate</text>
+    <text x="56" y="294" font-family="'SFMono-Regular',Consolas,monospace" font-size="15" fill="#A5B4D4" letter-spacing="1.1">FULL STACK  ·  ANDROID  ·  APPLIED AI</text>
+    <g transform="translate(1021 195)">
+      <rect x="0" y="0" width="205" height="95" rx="18" fill="url(#glass)" stroke="#7474C9" stroke-opacity=".57"/>
+      <text x="22" y="31" font-family="Consolas,monospace" fill="#B6A2FA" font-size="17">&lt;RJ /&gt;</text>
+      <text x="22" y="58" font-family="Consolas,monospace" fill="#D7E8F6" font-size="13">build. learn.</text>
+      <text x="22" y="78" font-family="Consolas,monospace" fill="#67E8F9" font-size="13">improve();</text>
+    </g>
+    <path d="M0 343H1280" stroke="url(#accent)" stroke-width="3" opacity=".78"/>
+  </g>
+</svg>
